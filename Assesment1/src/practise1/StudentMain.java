@@ -31,9 +31,6 @@ public class StudentMain {
 		public List<Student> toList(Map<String,Student> map){
 			List <Student>list =new ArrayList();
 			
-		for (Student students : list) {
-			list.add(students);
-		}
 		for(Student students:list) { 
 			System.out.println("age is "+students.getAge() +  " rollno is " + students.getRollno()); 
 		}
