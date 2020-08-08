@@ -1,4 +1,4 @@
-package practise1;
+package practise2;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class StudentMain {
 		map.put("two", student2);
 		map.put("three", student3);
 		map.put("four", student4);
-		List<Student> list=toList(map);
+		//List<Student> list=toList(map);
 		boolean isEquals = student1.equals(student2);
 		boolean isEquals1 = student2.equals(student3);
 		System.out.println("is equal=" + isEquals);

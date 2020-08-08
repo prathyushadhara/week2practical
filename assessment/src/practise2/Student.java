@@ -1,4 +1,4 @@
-package week2;
+package practise2;
 
 
 
@@ -22,6 +22,10 @@ public class Student {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	public int hashCode(){
+	int hash=rollno.hashCode();
+	return hash;
+	}
 	public boolean equals(Object arg) {
 		if(this==arg) {
 			return true;
@@ -32,8 +36,9 @@ public class Student {
 	   }
 
 	    Student that=(Student)arg;	
-		boolean isequal=this.rollno==that.rollno;
+		boolean isequal=this.rollno.equals(that.rollno);
 		return isequal;
 	}
 
 }
+

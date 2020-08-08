@@ -1,4 +1,4 @@
-package practise1;
+package student;
 
 public class Student {
 	private String rollno;
@@ -20,10 +20,6 @@ public class Student {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public int hashCode(){
-	int hash=rollno.hashCode();
-	return hash;
-	}
 	public boolean equals(Object arg) {
 		if(this==arg) {
 			return true;
@@ -39,4 +35,3 @@ public class Student {
 	}
 
 }
-

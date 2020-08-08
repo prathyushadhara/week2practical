@@ -1,4 +1,6 @@
-package practise1;
+package practise2;
+
+
 
 import java.util.*;
 public class Student1{
